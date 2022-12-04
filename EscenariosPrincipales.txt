@@ -1,0 +1,686 @@
+#INICIO|Me encontraba acampando en un bosque, en medio de la noche estaba buscando leña para hacer una fogata, cuando de repente me resbalé y caí a un rio. Me desperté a la orilla del rio y parecía que ya era de mañana.|100
+*OPCION1| Me levanto y empiezo a caminar a ver si encuentro algo.
+*OPCION2| Me subo a un pino para localizarme
+
+#OPCION1| A lo lejos se ve una cabaña, y me dirijo hacia ella. Cuando llego me percato de que no hay nadie.
+*ABANDONAR| Abandono la cabaña.
+*UTILIDAD| Busco si encuentro algo de mi utilidad en la cabaña.
+
+#ABANDONAR| Salgo de la casa y me adentro en el bosque para buscar algo de comer.
+*PEPITAS| Como unas pepitas moradas de un arbusto que está cerca.
+*RIO| Voy al rio a pescar.
+
+#OPCION2| Desafortunadamente al llegar a la copa del árbol no logro identificar el lugar.
+*CELULAR| Intento llamar a través del celular que tenía.
+*ARBOL| Bajo del árbol y espero a que alguien me rescate
+
+#UTILIDAD| En una de las habitaciones, reviso varios cajones y encuentro un mapa pero partido a la mitad.
+*MITAD| Busco la otra mitad del mapa
+*CUARTO| Busco en otro cuarto
+
+#PEPITAS| Tomo varias de las pepitas moradas y me como unas cuantas y las otras las guardo para más tarde. entonces me siento un poco mareado y me desmayo. Me levanto al anochecer
+*LUZ| Ve una luz
+*VER| Ves una cueva
+
+#RIO| Me quito los zapatos y me adentro en el rio, pero no logro cazar nada.
+*COMER| Me quedo sin comer.
+*INSECTOS| Busco insectos para alimentarme.
+
+#CELULAR| Pero aun así en la copa del árbol la señal es muy mala y la llamada no sale, por lo que bajo el árbol.
+*TIRO| De la rabia tiro el celular
+*GRITAR| Empiezo a gritar a ver si alguien me escucha.
+
+#ARBOL| Hago un pequeño refugio con ramas y hojas
+*DECIDO| Decido explorar la zona
+*ME| Me acuesto en el refugio y espero
+
+#MITAD| Logra encontrar la otra mitad del mapa
+*ALGO| Decide ir en busca por si logra encontrar algo
+*CAJA| ves una caja misteriosa y la abres
+
+#CUARTO| Recorres las otras habitaciones, pero no encuentras la otra mitad del mapa.
+*ELEMENTOS| Robas varios elementos de la casa y te vas.
+*LLEGUE| Esperas a que alguien llegue
+
+#LUZ| Se trata de un grupo de personas que están acampando, les pides ayuda y ellos están dispuestos a colaborarte. Has tenido suerte. |-1000
+
+#VER| Dentro hay una manada de lobos.
+*LOBOS| dormir en un árbol
+*INTERPERIE| Dormir en la intemperie.
+
+#COMER| Tu cuerpo se empieza a sentir muy mal por no haber comido.}
+*TRONCO| Comer insectos
+*NO| No comer
+
+#INSECTOS| En un tronco hay una variedad de insectos, los tomas y empiezas a comerlos. Sin embargo, uno de ellos era venenoso y has muerto.
+
+#TIRO| El celular se rompe en pedazos y me coloco a llorar, porque pienso que moriré en este bosque. Como nose que decidir, lo dejo todo en manos de un juego de ahorcado.
+*CARA| decides caminar en dirección contraria a la que fluye el rio.
+*SELLO| seguir la corriente del rio para ver si encuentras alguna población
+
+#GRITAR| Mientras gritaba, escucho un ruido detrás de un arbusto
+*A| me acerco al arbusto para ver que es
+*ALEJO| me alejo del arbusto, ya que puede tratarse de un animal salvaje
+
+#DECIDO| Camino por los alrededores para ver si hay comida, pero no hay nada comestible cerca.
+*ADENTRARSE| adentrarse en el bosque
+*VOLVER| volver al refugio
+
+#ME| Duermo un poco, y espero a que alguien venga a buscarme, pero un ruido de un disparo me despierta.
+*IR| ir en dirección del sonido de la bala
+*MAS| alejarme lo más posible de la zona
+
+#ALGO| camina y camina y no logra dar con el punto
+*VENCIDO| se pierde y se da por vencido
+*LOGRA| sigue caminando para ver si logra encontrar algo más
+
+#CAJA| Cuando abres la caja ves como un humo verde sale de la caja, te sientes mareado. Es humo venenoso.|-1000
+
+#ELEMENTOS| Recorres toda la cabaña y tomas todo lo que sea de tu utilidad, entre eso tomas una escopeta
+*VAS| vas a cazar
+*POCO| Intentas ir a un pueblo que está un poco cerca según la mitad del mapa
+
+#LLEGUE| Nunca llega nadie. Caminas por los alrededores para ver si hay comida, pero no hay nada comestible cerca.
+*ADEN| adentrarse en el bosque
+*CABA| volver a la cabaña
+
+#LOBOS| subes a un árbol muy grande
+*RAMA| te sientas en una rama, para recostarte y dormir
+*AUN| subes aún más y duermes en la copa del árbol
+
+#INTERPERIE| ves un lugar plano
+*ARBUS| caminas hacia un arbusto y duermes ahí
+*SUE| duermes en el suelo
+
+#TRONCO| En un tronco hay una variedad de insectos, los tomas y empiezas a comerlos. Sin embargo, uno de ellos era venenoso y has muerto.|-1000
+
+#NO| Como te niegas a comer insectos y no encuentras nada más te terminas desmayando y sin poder levantarte por varios días hasta morir.|-1000
+
+#CARA| vas caminando por toda la orilla rio arriba y no te fijas donde pisaste y te caes, lesionándote el pie
+*HACES| haces un refugio y te resguardas hay
+*SIG| sigues caminando
+
+#SELLO| Mientras vas bajando el rio te percatas de que atorada en una piedra ahí una mochila.
+*MOCHI| ir por la mochila
+*SEG| seguir mi camino
+
+#A| Sale un oso el cual se abalanza contra ti. Mala suerte. No debiste haberte acercado.|-1000
+
+#ALEJO| Ignoras el ruido y te alejas. Pero algo se te va acercando y se abalanza contra ti, un oso. Mala suerte.|-1000
+
+#ADENTRARSE| camino un poco más esperando encontrar comida, y veo un rastro de sangre
+*B| seguir el rastro
+*C| alejarse
+
+#VOLVER| al no tener suerte y estar cansado te devuelves al refugio, te estresas y sientes que no vas a sobrevivir así que dejas tu vida a la suerte.
+(MINIJUEGO EL AHORCADO)
+ganas: RETURN
+*D| decides tener esperanza
+pierdes: RETURN
+*E| no ves ninguna salida así que prefieres la muerte antes que sufrir.
+
+#IR| me acerco cuidadosamente hacia el lugar de donde vino el sonido y veo a una persona cocinando un conejo
+*F| me le acerco a la persona, para pedir ayuda.
+*G| espero a que este desprevenido para quitarle su arma.
+
+#MAS| me levanto del refugio y corro en dirección contraria al lugar de donde provino el sonido de la bala, pero para mí mala suerte un perro me va siguiendo y cerca veo una cascada
+*H| saltar
+*I| dejar acorralarme por el perro
+
+#VENCIDO| Pero se da cuenta que el mapa lo tenía al revés
+*J| ve a lo lejos una bolsa y vas por ella
+*K| Ir por otro camino
+
+#LOGRA| Te encuentras completamente desesperado, te recuestas en el piso y miras al cielo. Te percatas de ahí humo. Te diriges hacia donde sale el humo. Se trata de una familia que está acampando y puede ayudarte.
+
+#VAS| Te adentras más en el bosque y ves un conejo, te preparas para disparar, pero estas indeciso porque nunca antes habías tomado un arma
+*L| Disparas
+*M| No disparas
+
+#POCO| Tomas camino y ves que hay un enorme peñasco
+*N| Escalarlo
+*O| Rodearlo
+
+
+
+#ADEN| camino un poco más esperando encontrar comida, y veo un rastro de sangre
+*P| seguir el rastro
+*Q| alejarse
+
+#CABA| al no tener suerte y estar cansado me devuelvo al refugio, me estreso y siento que no voy a sobrevivir así que dejo mi vida a la suerte.
+(MINIJUEGO EL AHORCADO)
+ganas: RETURN
+*R| decides tener esperanza
+pierdes: RETURN
+*S| no ves ninguna salida así que prefieres la muerte antes que sufrir.
+
+#RAMA| pasan unas largas horas, hasta que un ruido te despierta y notas que debajo del árbol se encuentra un oso que empieza a trepar el árbol, te alarmas y...........
+*T| decides esperar a que se acerque un poco y saltar desde la rama
+*U| decides arrojarle tus zapatos al oso para que se caiga.
+
+#AUN| Pero empieza a llover muy fuerte, con rayos y truenos. Decido todo debe quedar a la suerte en un juego del ahorcado.
+Cara: RETURN
+*V| Llega la mañana y desde la copa del árbol ves una carpa de campista
+Sello: RETURN
+*W| Mala suerte. Te cae un rayo y te mata.
+
+#ARBUS| Pero el arbusto es venenoso. Mueres
+
+#SUE| Te recuestas en el suelo y te quedas allí. Tu cuerpo se debilita mucho y no responde. 
+
+#HACES| Consigues unos cuantos arbustos y te resguardas aquí, pero la lesión se infecta
+*X| ir al rio por agua
+*Y| quedarse en el refugio y esperar
+
+#SIG| Mientras seguías con tu camino, te encuentras con una zona bastante montañosa
+*Z| Seguir adelante
+*AA| parar ahí y descansar un poco
+
+#MOCHI| Accidentalmente te caes al rio y te ahogas.
+
+#SEG| Sigues rio abajo, hasta llegar a un pequeño pueblo. Los habitantes no son muy amistosos y no te aceptan. Pasas varios días caminando en el bosque sin rumbo. Mueres.
+
+#B| camino siguiendo el rastro de sangre y este se adentra en una cueva
+*BA| entrar a la cueva
+*CA| esperar afuera
+
+#C| Es muy tarde, ya una persona va por ti. Mala suerte.
+
+#D| Esta no dura mucho después de encontrar el cadáver de una persona recién muerta. Te suicidas.
+
+#E| Terminas con tu vida 
+
+#F| me acerco hacia la persona y esta toma su arma y la apunta hacia mí. Le explico que necesito ayuda, pero me ignora y se abalanza hacia mí, dejándome inmóvil y luego me ata a un árbol.
+*DA| intento convencerlo de que me suelte
+*EA| le ruego que no me mate
+
+
+#G| me acerco cuidadosamente, escondiéndome entre los árboles y los arbustos, para agarrar su arma y logro tomarla y apuntarle.
+*FA| lo ato a un árbol
+*GA| le disparo
+
+
+#H| como ves que no hay más salida saltas, pero no sobrevives.
+
+#I| el perro te acorrala y te muerde la pierna, luego llega una persona que te da un golpe en la cabeza y caes inconsciente. Nunca despiertas.
+
+#J| llega a su destino y ve que en la bolsa solo hay armas de defensa personal
+*HA| decide llevarse la bolsa
+*IA| le sale un animal que lo pica
+
+#K| Das por varios días vueltas sin saber dónde estás. Al final terminas muriendo.
+
+#L| Accionas el rifle y te has lastimado, el rifle no estaba bien armado. Te golpeaste el hombro
+*JA| Intentar arreglarlo
+*KA| Votar el rifle y buscar frutos secos
+
+#M| No disparas y tu presa se va. Torpemente te caes y te terminas disparando a ti mismo.
+
+#N| Empiezas a escalar, pero hace mucho frio y cada vez se coloca más inclinado
+*LA| Bajar
+*MA| Seguir escalando
+
+#O| Empiezas a caminar ya que te espera un largo camino rodeando el peñasco. Sin embargo, cae la noche
+*NA| seguir adelante
+*OA| Refugiarte
+
+#P| camino siguiendo el rastro de sangre y este se adentra en una cueva
+*BA| entrar a la cueva
+*CA| esperar afuera
+
+#Q| Es muy tarde, ya una persona va por ti. Mala suerte.
+
+#R| Esta no dura mucho después de encontrar el cadáver de una persona recién muerta. Te suicidas.
+
+#S| MUERES
+
+#T| Dejas todo en manos de un juego.
+Ganas RETURN
+*PA| caes al suelo sin ninguna herida
+pierdes
+*QA| al tirarte desde la rama te enredas en una cuerda que había en el árbol y mueres por asfixia y devorado por el oso
+
+#U| Pero el oso se enfada y sigue trepando. Ya no tienes a donde huir. El oso te ha atrapado.
+
+#V| Te acercas apresuradamente a la carpa
+Las personas de la carpa te ven como una amenaza y deciden dispararte. Has muerto.
+
+#W| Has muerto.
+
+#X| Te diriges hacia el rio y del otro lado ves un arbusto de moras, tienes mucha hambre pero tu pie se encuentra muy mal
+*RA| pasar el rio e ir por las moras
+*SA| tomar solo el agua y devolverse al refugio
+
+#Y| Te colocas muy débil debido a la fiebre producida por la lesión y por el hambre
+*TA| decides dormir un poco
+*UA| sales a buscar algo para comer
+
+#Z| mientras subes escuchas el ladrido de un perro
+*VA| gritar a ver si hay una persona cerca
+*WA| caminar hacia el sonido del perro
+
+#AA| mientras descansabas ves un rastro de humo en el cielo, asi que te paras y caminas hacia ella
+*XA| te acercas lo suficiente 
+*YA| te acercas prevenidamente escondiéndote entre los arboles
+
+#BA| Entras en la cueva y te das cuenta de que serás la comida de una manda de lobos. Moriste.
+
+#CA| Ves como sale un lobo, el cual está dispuesto a atacarte. Pero llega otra persona y lo aleja de ti. Un cazador, él te ayudara a salir del bosque.
+
+#DA| le explico que me perdí en el bosque y que no sé dónde estoy, pero el me dice que desconfía de mí y que puedo estar engañándolo para matarlo. Así que te dispara.
+
+#EA| de la desesperación me coloco a llorar y decirle que hare lo que sea para que no me mate. Pero el ignora tus suplicas y te dispara.
+
+#FA| cojo una cuerda y lo ato a un árbol
+*ZA| tomo sus cosas y me voy
+*AR| me quedo ahí y reviso sus cosas
+
+#GA| Cuando estas preparado para dispararle, alguien te ataca por la espalda. Mala suerte. No tienes escapatoria.
+
+#HA| al llevar la bolsa se da cuenta que la bolsa se rompe y al caerse todo cae otro mapa
+*BR| revisar el mapa
+*CR| no prestarle atención
+
+#IA| Te empiezas a sentir muy mal. Era un animal venenoso. Has muerto.
+
+#JA| Haces lo posible por arreglarlo y cuando crees que está listo tienes que hacer una prueba
+buscar otra presa y haces la prueba
+*DR| buscar otra presa y haces la prueba
+*ER| Disparar al vacío
+
+#KA| Mientras caminas te percatas de que escuchas personas hablando. Has encontrado a una familia que está acampando y te van a ayudar.
+
+#LA| Te das cuenta de que escalarlo es muy difícil por lo que la mejor opción será rodearlo. Pero cae la noche
+*FR| Seguir adelante
+*OA| Refugiarte
+
+#MA| Sigues escalando y cae la noche, en el peñasco hay una pequeña cueva
+*GR| Entrar y refugiarte
+*HR| Seguir subiendo
+#NA| Piensas que no hay tiempo que perder, para así poder llegar lo antes posible. Llega una zona en que el pasto es más alto
+*IR| Cortar el pasto
+*JR| Pasar así
+
+#OA| Encuentras una cueva y entras en ella, casi no se ve nada, por lo que te quedas cerca de la entrada. Además de que escuchas un rugido
+*KR| Salir de ahí
+*LR| Quedarse
+
+#PA| Te encuentras bien
+*MR| Correr y huir muy lejos
+*NR| Alejarse lentamente
+
+#QA| MUERES
+
+#RA| Vas pasando el rio, llegas al otro lado y empiezas a recoger las moras
+*OR| comes unas cuantas
+*PR| guardas las moras y te las llevas para después.
+
+#SA| te acercas al rio y con tus manos recoges un poco de agua, tomas lo necesario y te devuelves al refugio.
+*QR| decides irte de ahí
+*RR| te quedas en el refugio
+
+#TA| Aunque descanses un poco, la lesión no mejorara. Empiezas a escuchar pasaos y te levantas
+*SR| Sigues los pasos
+*TR| Intentas ver de quien se trata
+
+#UA| En tu búsqueda fuiste presa de una familia de lobos hambrientos.
+
+#VA| Gritas, pero nadie te responde, haces un segundo intento y alguien te responde pidiendo ayuda.
+*UR| Te diriges hacia la persona
+*VR| Le preguntas donde esta
+
+#WA| Sigues al perro y este llega hasta un campamento. Allí los campistas te ven y te ofrecen ayuda.
+
+#XA| Recibes un golpe en la nuca y caes al suelo inconsciente. Nunca despertaste.
+
+#YA| ves a unos tipos, con su ropa manchada de sangre e intentas huir. Ya es demasiado tarde, ya te han visto. No logras escapar.
+
+#ZA| empaco lo más útil en una mochila, y me voy, entre ellas ahí implementos para cazar y un mapa
+*WR| voy a cazar
+*XR| reviso el mapa
+
+#AR| Reviso que puede ser de utilidad, pero otra persona se acerca y me dispara.
+
+#BR| Según el mapa hay un pueblo muy cerca
+*YR| Seguir el mapa hacia el pueblo
+*ZR| omitir el pueblo
+
+
+
+#CR| Das por varios días vueltas sin saber dónde estás. Al final terminas muriendo.
+
+#DR| Encuentras otro conejo y te preparas para disparar. El conejo ha muerto y el rifle ha funcionado. Pero te das cuenta de que un lobo se acerca a tu caza
+*AS| Decides dispararle al lobo
+*BS| Dejas que se coma tu presa
+
+#ER| El rifle ha funcionado, pero has espantado a todos los animales que se encontraban cerca y has perdido una bala.
+*DS| Caminar a otra zona
+*ES| Buscar otra cosa que comer
+
+#FR| Piensas que no hay tiempo que perder, para así poder llegar lo antes posible. Llega una zona en que el pasto es más alto
+*IR| Cortar el pasto
+*JR| Pasar así
+
+#GR| Decides entrar y descansar allí. Amanece y te das cuenta de que el suelo esta húmedo. Ha llovido durante la noche
+*FS| Salir y seguir escalando
+*GS| Esperar hasta el medio día
+
+#HR| Tu cuerpo está muy débil, por lo que en un momento el sueño te vence. Caes desde una gran altura. No sobreviviste.
+
+#IR| Dentro de las cosas que te robaste de la cabaña tienes un machete, empiezas a cortar el pasto y seguir adelante. Te fijas que en el piso hay una trampa para osos, por lo que crees que debe haber personas cercas
+*HS| Caminar los alrededores
+*IS| Gritar para ver si alguien te escucha
+
+#JR| Empiezas a caminar por el pasto alto cuando sientes que algo presiona una de tus piernas, una trampa para osos
+*JS| Intentar quitarla
+*KS| Gritar para ver si hay alguien cerca
+
+#KR| Te preocupa que se trate de un oso, así que prefieres irte de ahí
+*LS| Buscar otra cueva
+*MS| Mojarse
+
+#LR| No crees que sea un problema, ya que pudo solo ser tu imaginación o algo que no pueda representar peligro. Pero sientes como algo se te acerca, un oso. Mala suerte.
+
+#MR| Sales corriendo y el oso te persigue y te alcanza. Fin.
+
+#NR| Das pasos lentos para que el oso no se abalance contra ti. Logras llegar hasta un punto donde no se ve el oso. Pero escuchas un disparo que proviene de donde estaba el oso
+*NS| Dirigirse hacia donde estaba el oso
+*OS| Alejarse mas
+
+#OR| te comes unas cuantas moras, están deliciosas, pasas el rio y vuelves a tu refugio y empieza a llover. Tu refugio se desploma, al igual como lo hace poco a poco tu cuerpo, pues comiste moras venenosas.
+*PS| caminar hasta donde puedas
+*QS| comenzar a gritar
+
+
+
+#PR| pasas el rio y te devuelves para tu refugio y empieza a llover. Te mojas y luego te resfrías, empiezas a sentirte muy cansado por la lesión que tienes en el pie
+*RS| Comer las moras, para retomar fuerzas
+*SS| buscar hierbas medicinales
+
+#QR| dejas el refugio y caminas al interior del bosque, buscando algo de ayuda. Miras al cielo y ves humo.
+*TS| Ir en dirección del humo
+*US| ignorarlo
+
+#RR| Pues como no sabes que hacer prefieres quedarte en un lugar que parece seguro. Sin embargo, empieza a llover demasiado fuerte y tu refugio se derrumba
+*VS| buscar una cueva
+*WS| colocarte debajo de un árbol, aunque te mojes un poco
+
+#SR| Intentas seguir a la persona por el sonido de sus pasos. En un momento ya no escuchas nada. Esa persona está detrás tuyo y cree que eres peligroso. Te da en la nuca con una piedra. No sobreviviste.
+
+#TR| Te subes a un árbol y buscas a la persona, no logras visualizarla
+*XS| Bajar del árbol
+*YS| Seguir intentando buscar
+
+#UR| Corres hacia donde escuchaste la vos de la persona. Pero no la encuentras. Es una trampa. Mala suerte.
+
+#VR| La persona no responde y piensas que podría ser una trampa
+*ZS| Te diriges cuidadosamente hacia donde escuchaste a la persona
+*AL| Te alejas del sitio
+
+#WR| como tengo mucha hambre decido ir a cazar primero, y veo un lindo venado, estoy preparado para disparar, cuando un oso se abalanza contra mi y me come.
+
+#XR| me fijo en que a unos pocos kilómetros subiendo una montaña queda el lugar de donde vine, y en dirección contraria hay una pequeña población.
+*BL| ir hacia la zona de donde vine
+*CL| ir hacia la población
+
+#YR| Con la ayuda del mapa consigues dar con el pueblo. Estas salvado.
+
+#ZR| Das por varios días vueltas sin saber dónde estas. Al final terminas muriendo.
+
+#AS| Disparas y logras darle al lobo, el lobo huye mientras se desangra. Conseguiste proteger tu comida
+*DL| Buscas leña para preparar el conejo
+*EL| Guardas el conejo y vas e n busca de un lugar para resguardarte
+
+#BS| Pero ves como el lobo se acerca a ti, intentas dispararle, pero fallas, ahora tu eres su comida.
+
+#DS| Mientras caminas te percatas de que escuchas personas hablando. Has encontrado a una familia que está acampando y te van a ayudar.
+
+#ES| Ves un arbusto lleno de frambuesas. Pero dentro de arbusto algo te ha picado. Te sientes muy mal y luego de unas horas mueres.
+
+#FS| Empiezas a escalar, pero como todo está un poco mojado, te resbalas y caes. No has sobrevivido.
+#GS| Esperas al medio día cuando todo este un poco más seco y sigues con tu camino. A un lado del camino por donde vas, ves un árbol con frutos
+*FL| Ir por los frutos
+*GL| ignorarlos
+
+#HS| empiezas a caminar, pero no ves a nadie cerca
+*HL| Gritar para ver si alguien escucha.
+*IL| Sigues tu camino
+
+#IS| Empiezas a gritar y alguien te responde. Te diriges hacia la voz de la persona, se trata de un cazador el cual va a ayudarte.
+
+#JS| Con todas tus fuerzas intentas quitar la trampa, pero no tienes éxito. Te espera una larga noche
+*JL| Quedarse quieto
+*KL| Tomar un poco de alcohol del que robaste en la cabaña
+
+#KS| Tu cuerpo no soporta más el dolor y te desmayas. El cazador que coloco la trampa nunca llego. Pasaste varios días en ese lugar. No sobreviviste.
+
+#LS| Te diriges hacia otra cueva, al parecer está sola. Te recuestas en una de las paredes y te duermes. Nunca despertaras. Las lluvias produjeron que hubiese una avalancha.
+
+#MS| Ya de todas formas estas mojado así que no ves la diferencia. Sin embargo, te resfrías y desmayas porque estas muy débil, y mientras estas inconsciente, unas personas te cargan. Cuando despiertas estas en un hospital. Estas salvado.
+
+#NS| Ves que se trata de un cazador el cual le ha disparado al oso. Esta persona es tu salivación. El cazador te ayuda.
+
+#OS| Te asustas con el disparo y corres sin fijarte por donde vas. Caes por una peña. No has sobrevivido.
+
+#PS| Mientras caminabas ves a un perro y tratas de llamarlo. Pero el perro se empieza a alejar y entonces empiezas a corres tras él. Logras ver a su dueño.................matando a una persona
+*LL| Te alejas lo más rápido posible
+*ML| Te quedas en ese lugar escondido tras un árbol
+
+#QS| un perro te escucha, se trata del perro de un guardabosque. El guardabosque te encuentra y te lleva a un hospital. Allí te practican una cirugía para arreglar tu pie lesionado. Pero cundo despiertas escuchas unos pájaros y sientes el pasto mojado...…todo ha sido una ilusión.
+*NL| Seguir durmiendo
+*OL| suicidio
+
+#RS| al comer las moras te sientes peor, pues se trataba de moras venenosas, por lo que mueres.
+
+#SS| En tu búsqueda encuentras algo para aliviar el dolor. Por lo que te sientes un poco mejor y caminas hacia otro lugar del bosque, allí encuentras el cuerpo de una persona muerta
+*PL| Te acercas para mirar el cuerpo
+*QL| decides ignorarlo
+
+#TS| Caminas rápidamente, pero cuando llegas ves que la fogata ya está apagada y no hay nadie
+*RL| Ir a buscar a las personas
+*SL| Rendirse
+
+#US| Prefieres seguir caminando, pero te das cuenta de que solo estas dando vueltas. Te sientes cansado y te acuestas. Cuando te levantas unos campistas están a un lado tuyo. Te vienen a rescatar.
+
+#VS| Caminas mirando a tus alrededores y te fijas que hay una cueva, pero está muy oscura y no se ve nada
+*TL| entrar
+*UL| no entrar
+
+#WS| Te diriges hacia un árbol muy grande y te colocas debajo de este, tienes mucho frio y la herida de tu pie no se ve muy bien. Después de varias horas de lluvia te da hipotermia y mueres.
+
+#XS| Como no logras ver a la persona te bajas del árbol y piensas que has perdido una oportunidad de salvarte. Pero esta persona ya te estaba vigilando hace mucho, saca un arma y te dispara.
+
+#YS| y ves a la persona, te le acercas y le pides ayuda. Pero notas que esta actúa un poco sospechoso 
+*VL| Le pides ayuda
+*WL| Finges que no estas perdido
+
+#ZS| Vas hacia ese lugar. Mala suerte, si era una trampa.
+
+#AL| Corres en dirección contraria, pero alguien te va siguiendo. Esta persona te ha alcanzado y te ha golpeado con una piedra
+
+#BL| Tomas camino, pero luego de varios días no llegas. Decides rendirte.
+
+#CL| Luego de dos días consigues llegar a un pueblo. Estas salvado.
+
+#DL| Miras a los alrededores para tomar ramas y luego haces una fogata. Colocas a cocinar algunas de las partes del conejo. Humo, dicen unos campistas que se encontraban por la zona, se acercan hasta donde tu estas. Estas salvado, los campistas te van a ayudar.
+
+#EL| Pero mientras van en busca de ese lugar, una manada de lobos se te acerca y te ataca. Has muerto.
+
+#FL| Te diriges hacia el árbol y logras llegar. Comes un poco de los frutos y guardas unos en tus bolsillos. Sigues camino arriba, pero los frutos que comiste eran venenosos. Te mareas y te sueltas, caes y mueres.
+
+#GL| Continuas tu camino, pero comienza a hacer mucho viento. Te distraes y te sueltas. Caes, no sobreviviste.
+
+#HL| Empiezas a gritar y alguien te responde. Te diriges hacia la voz de la persona, se trata de un cazador el cual va a ayudarte
+
+#IL| Como no hay rastros de alguien cerca, prefieres seguir con tu camio hacia el pueblo. Luego de varias horas logras llegar. Estas salvado-.
+
+#JL| Te duele mucho la pierna, cualquier movimiento es horrible. Empiezas a gritar del dolor, pero esto llama la atención de una manda de lobos. Mala suerte.
+
+#KL| Tomas un poco de alcohol para que el dolor no sea tan fuerte. Tu cuerpo se debilita y te desmayas. Al día siguiente cuando despiertas observas que estas en un hospital. El cazador que coloco la trampa te trajo.
+
+#LL| Comienzas a correr lo más rápido posible, pero el perro te muerde la pierna y caes. Se acerca la persona, te golpea en la cabeza, te amarra y te lleva a su cabaña. Cuando despiertas estas en un hospital, los policías te habían rescatado de este asesino.
+
+#ML| Pero de lo mal que estas te desmayas en ese lugar, la persona te encuentra y te mata, ya que pudiste ser testigo del asesinato
+
+#NL| estas muy cansado y te quedas dormido. Pero mueres durante la noche comido por lobos hambrientos.
+
+#OL| Te arrastras hasta el rio y te tiras para poder ahogarte. Sin embargo, tu cuerpo aparece a la orilla del rio abajo, una persona toma tu cuerpo y se lo lleva a su casa. Tú te despiertas…Y
+*XL| y decides quedarte ahí y descansar
+*YL| Levantarte e irte de la casa
+
+#PL| Cuando te acercar ves que cerca ahí un bolso y encuentras un radio, un cuchillo y comida.
+*ZL| intentar llamar a través del radio
+*AX| Alejarse primero del cuerpo
+
+#QL| Te vas debido a que la persona que lo mato puede estar cerca. Y cuando ya estás un poco lejos del cadáver te chocas con una persona
+*VL| Le pides ayuda
+*WL| Finges que no estas perdido
+
+#RL| Recorres todos los alrededores para ver si los encuentras, y logras dar con ellos. Te ayudaran a slir del bosque
+
+#SL| Supones que las personas ya deben estar muy lejos y ya no vale la pena buscarlos
+*BX| seguir caminando
+*CX| revisas el lugar para ver si encuentras algo
+
+#TL| Como está lloviendo demasiado fuerte decides entrar y recostarte en una de las paredes de la cueva. Luego de unas horas deja de llover tan fuerte, pero cae la noche
+*DX| hacer una fogata y pasar la noche
+*EX| irse a otro lugar
+
+#UL| Crees que puede haber algún animal salvaje y prefieres quedarte afuera debajo de un árbol. Luego de varias horas deja de llover y cae la noche
+*FX| dormir en el piso
+*GX| subir al árbol y dormir en una de las ramas
+
+#VL| Esta persona te dice que te va a ayudar y empiezan a caminar, te fijas de que una parte de su camiseta esta manchada de sangre y empiezas a dudar de el
+*HX| Correr y alejarse de él
+*IX| empujarlo por una colina cuando tenga la oportunidad
+
+#WL| Le dices que estas con unos amigos, ya que sospechas de él. Esta persona te dice que está perdido y que si puede acompañarte. 
+*JX| Darle indicaciones falsas
+*KX| Decirle la verdad
+
+#XL| Sientes como muchas personas te miran y sientes tu cuerpo amarrado. Mala suerte, estas personas te van a comer. Escuchas el sonido de un disparo y mueres.
+
+#YL| La persona escucha cuando sales y te persigue, tienes miedo, agarras un cuchillo y se lo clavas en el pecho. Acabas de matar a una persona.
+*LX| lo entierras
+*MX| Te alejas desesperadamente
+#ZL| Te sientas en el pasto y empiezas a pedir ayuda a través del radio a ver si alguien te escucha. Pero la persona que mato al hombre todavía está cerca y te escucha. Oyes unos pasos que se acercan rápidamente
+*NX| Te alejas
+*OX| Le tiendes una trampa a esta persona
+
+#AX| Te alejas del cuerpo, y luego comes un poco mientras intentas pedir ayuda por medio del radio.
+*PX| Seguir caminando 
+*QX| parar y descansar
+
+#BX| Luego de varias horas caminando te percatas de que te has adentrado mucho más en el bosque. No ves salida y te rindes.
+
+
+#CX| Al parecer encuentras un mapa, en el cual hay zonas marcadas. Supones que son los lugares a donde irán esas personas
+*RX| Seguir el mapa
+*SX| No arriesgarse
+
+#DX| Buscas leña e intentas hacer fuego, tienes éxito, ahora ya no tienes tanto frio. A la mañana siguiente unas personas te encuentran. Estas salvado.
+
+#EX| Subes al árbol, en una de las ramas más altas y te recuestas. Cuando te levantas al día siguiente ves un panal de avispas y piensas en la miel
+*TX| ir por la miel
+*UX| ignorarlo
+
+#FX| Estas muy cansado y te recuestas en el piso. A la mañana cuando despiertas ves al frente tuyo un jaguar, mala suerte, este jaguar está muy hambriento.
+
+#GX| Subes al árbol, en una de las ramas más altas y te recuestas. Cuando te levantas al día siguiente ves un panal de avispas y piensas en la miel
+*TX| ir por la miel
+*UX| ignorarlo
+
+#HX| Cuando intentas escapar te resbalas y caes por una colina y mueres
+
+#IX| Mientras la persona estaba distraída lo empujas, pero él te agarra y los dos se caen por la colina y se encuentran mal heridos.  Los coge la noche, y empieza a hacer mucho frio. Al día siguiente unos guardabosques los encuentra...........sin signos vitales.
+
+#JX| Te inventas la excusa de que primero vas a ir a buscar algo, y le entregas indicaciones donde se supone que están tus compañeros. Esta persona insiste en que te quiere acompañar
+*VX| Aceptas que te acompañe
+*WX| sigues insistiendo en que se adelante y se encuentre con tus compañeros
+
+#KX| Confías en esta persona y le dices que realmente estas perdido. Entonces la persona dice que no preocupe que se van a ayudar, pero cuando van caminando, esta persona te apuñala y te deja tirado. Luego de unas horas te desangras y mueres.
+
+#LX| Te diriges a la parte de atrás de la cabaña, con una pala haces un hueco en la tierra y cuando terminas escuchas unos pasos. Una voz te dice que te arrodilles y coloques las manos arriba. Es un policía y te acusan de ser sospechoso de varios asesinatos de la zona.
+*XX| Intentas explicar todo a la policía
+*YX| intentas asesinar al policía
+
+
+#MX| Mientras te alejas te chocas con una persona.............. un guardabosques, le explicas todo y este te dice que te va a ayudar. Pero cuando el guardabosques tiene la oportunidad te tira por un barranco.
+
+#NX| Logras escapar. Ya no escuchas los pasos de esta persona. Decides seguir intentando pedir ayuda por medio del radio, y una persona te contesta. Esta persona dice que te va a rastrear para saber dónde estas
+*ZX| Esperas a que lleguen por ti
+*AU| Colocas una trampa por si acaso
+
+#OX| Tu trampa falla y esta persona te ataca. Mueres por un golpe muy fuerte que te dio
+
+#PX| mientras caminabas te tropiezas y dejas caer el radio por un pequeño abismo.
+*BU| Bajar a buscar el radio
+*CU| Dejarlo ahí
+
+#QX| Decides sentarte al costado de un árbol y seguir intentando, pero nadie te contesta.
+*DU| Dejas de intentar
+*EU| sigues intentando
+
+#RX| Sigues el mapa y logras encontrar a estas personas. Se trata de campistas, los cuales te van a ayudar.
+
+#SX| Pasas varios días en el bosque y tuis esperanzas de sobrevivir son nulas. Prefieres rendirte.
+
+#TX| Tienes hambre y ves una gran oportunidad, por lo que te acercas al panal de miel
+*FU| Tumbarlo desde arriba
+*GU| Tumbarlo desde abajo
+
+#UX| Piensas que es demasiado peligroso y vas en busca de algo más para comer. Mientras caminabas ves que un arbusto se mueve.
+*HU| Acercarse
+*IU| Seguir de largo
+
+#VX| Van caminando y esta persona se percata de que no sabes hacia donde te diriges y empieza a hacerte preguntas. Como no le quieres responder se altera y te empuja contra un árbol. Tienes un golpe muy fuerte en la cabeza. Te desmayas y te desangras. Moriste.
+
+#WX| Esta persona se aburre y te amenaza, decides decirle la verdad y el satisfactoriamente se alegra y te mata.
+
+#XX| El policía no te escucha. Te llevan a un jurado donde te acusan de varios asesinatos y te dan cadena perpetua. Ya en la cárcel tu vida es imposible.
+*JU| Morir
+*KU| vivir el resto de tu vida en la cárcel
+
+#YX| Fallas. El policía te dispara en la cabeza.
+
+#ZX| Mientras esperas ves que alguien se acerca, la persona te indica que es con quien hablo. Esta persona te va a ayudar para salir del bosque.
+
+#AU| Ves como una persona se acerca y mira el radio que esta tirado en el suelo, luego sales con el cuchillo en la mano. Esta persona te indica que no es una persona mala y que te va a ayudar.
+*LU| Bajas el arma
+*MU| lo sigues, pero no bajas el arma
+
+#BU| Cuando bajas te terminas resbalando y para tu mala suerte el radio ya no funciona
+*NU| subir y seguir caminando
+*OU| quedarse ahí y descansar
+
+#CU| Prefieres no arriesgarte y seguir caminando. Estas muy cansado, crees que estas dando vueltas. Y mueres por un fuerte golpe que recibes en la cabeza.
+
+#DU| Luego de 4 largas horas empieza a llover demasiado fuerte. Cuando mirar detrás de ti, ves como una avalancha de tierra se acerca. Has muerto.
+
+#EU| Después de 3 largas horas alguien te responde, y te dice que rastrearán tu ubicación e irán por ti. Estas salvado.
+
+#FU| Trepas el árbol y te acercas a la rama desde la cual está colgando el panal y con una rama larga empiezas a empujarlo. Lo logras, el panal ha caído
+*PU| Bajar enseguida
+*QU| Esperar
+
+#GU| Desde abajo agarras barios palos y rocas para lanzárselos al panal.  a tirarle esto al panal y cuando ves que está cayendo corres hacia un lado. Pero cuando el panal llega al piso las avispas se alborotan y te atrapan. Como no fuiste muy listo moriste.
+
+#HU| Te acercas al arbusto para ver que esconde. Moriste.............un oso se lanzó contra ti.
+
+#IU| Prefieres ignorar algo que puede ser peligroso. Sin embargo, escuchas pasos, se trata de cazadores de osos. Y están dispuestos a ayudarte a salir del bosque. Has tenido suerte.
+
+#JU| Al día siguiente un abogado se acerca a tu celda y te encuentra muerto. El abogado venía a sacarte de la cárcel, se había encontrado pruebas de tu inocencia. Pero fue demasiado tarde.
+
+#KU| Al día siguiente un abogado se acerca a tu celda, te tiene noticias. Se hallaron pruebas de tu inocencia y pronto te sacaran de la cárcel.
+
+#LU| Bajas el arma y le pides disculpas a esta persona. Esta persona te dice que no hace falta y te saca del bosque.
+
+#MU| Esta persona se empieza a molestar por este comportamiento y empieza a desconfiar de ti. Por lo que te ataca y se caen por un barranco. Como tu te encontrabas un poco débil no sobrevives.
+
+#NU| Subes y sigues caminando. Pero arriba te espera una persona con una pistola en su mano. La persona acciona el arma y mueres
+
+#OU| Mientras estabas recostado una manada de lobos se acerca y en un intento por escapar subiendo te resbalas y caes. Los lobos te terminan comiendo.
+
+#PU| Como las avispas se encuentran muy molestas, cuando bajas te atrapan y te pican. Has muerto.
+
+#QU| Esperas a que las avispas se calmen y se alejen para ir a coger la miel. Logras comer y guardas un poco para después. Sin embargo, un oso se lanza contra ti.
